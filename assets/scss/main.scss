@@ -1,0 +1,62 @@
+@import './color';
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: $oc-gray-0;
+  font-family: 'Apple SD Gothic Neo', AppleSDGothicNeo, 'Noto Sans CJK KR',
+    'NanumGothic', 'Malgun Gothic', '맑은 고딕', 돋움, dotum, arial, sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  color: $oc-gray-9;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+textarea,
+i,
+button {
+  outline: none;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+textarea {
+  border-width: 1px;
+  resize: none;
+}
+
+.block {
+  display: block;
+}
+
+.none {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.disabled {
+  opacity: 0.8;
+}
